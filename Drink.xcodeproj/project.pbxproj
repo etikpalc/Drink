@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0687E72C91AC4C000F7431 /* StopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0687E62C91AC4C000F7431 /* StopView.swift */; };
 		1D5DFA902C91776C0039CD01 /* DrinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5DFA8F2C91776C0039CD01 /* DrinkApp.swift */; };
-		1D5DFA922C91776C0039CD01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5DFA912C91776C0039CD01 /* ContentView.swift */; };
 		1D5DFA942C91776F0039CD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5DFA932C91776F0039CD01 /* Assets.xcassets */; };
 		1D5DFA972C91776F0039CD01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5DFA962C91776F0039CD01 /* Preview Assets.xcassets */; };
 		1D5DFAA12C9177700039CD01 /* DrinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5DFAA02C9177700039CD01 /* DrinkTests.swift */; };
 		1D5DFAAB2C9177700039CD01 /* DrinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5DFAAA2C9177700039CD01 /* DrinkUITests.swift */; };
 		1D5DFAAD2C9177700039CD01 /* DrinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5DFAAC2C9177700039CD01 /* DrinkUITestsLaunchTests.swift */; };
+		1D5DFABB2C9178F10039CD01 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5DFABA2C9178F10039CD01 /* StartView.swift */; };
+		1D5DFABD2C91796B0039CD01 /* WhenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5DFABC2C91796B0039CD01 /* WhenView.swift */; };
+		1D5DFABF2C917BAD0039CD01 /* CheatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5DFABE2C917BAD0039CD01 /* CheatingView.swift */; };
+		1D5DFAC12C917C360039CD01 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5DFAC02C917C360039CD01 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D0687E62C91AC4C000F7431 /* StopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopView.swift; sourceTree = "<group>"; };
 		1D5DFA8C2C91776C0039CD01 /* Drink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5DFA8F2C91776C0039CD01 /* DrinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkApp.swift; sourceTree = "<group>"; };
-		1D5DFA912C91776C0039CD01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D5DFA932C91776F0039CD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D5DFA962C91776F0039CD01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D5DFA9C2C9177700039CD01 /* DrinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		1D5DFAA62C9177700039CD01 /* DrinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5DFAAA2C9177700039CD01 /* DrinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkUITests.swift; sourceTree = "<group>"; };
 		1D5DFAAC2C9177700039CD01 /* DrinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D5DFABA2C9178F10039CD01 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		1D5DFABC2C91796B0039CD01 /* WhenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenView.swift; sourceTree = "<group>"; };
+		1D5DFABE2C917BAD0039CD01 /* CheatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheatingView.swift; sourceTree = "<group>"; };
+		1D5DFAC02C917C360039CD01 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,13 @@
 		1D5DFA8E2C91776C0039CD01 /* Drink */ = {
 			isa = PBXGroup;
 			children = (
+				1D5DFAB92C9178160039CD01 /* Model */,
 				1D5DFA8F2C91776C0039CD01 /* DrinkApp.swift */,
-				1D5DFA912C91776C0039CD01 /* ContentView.swift */,
+				1D5DFABA2C9178F10039CD01 /* StartView.swift */,
+				1D5DFABC2C91796B0039CD01 /* WhenView.swift */,
+				1D5DFABE2C917BAD0039CD01 /* CheatingView.swift */,
+				1D5DFAC02C917C360039CD01 /* HomeView.swift */,
+				1D0687E62C91AC4C000F7431 /* StopView.swift */,
 				1D5DFA932C91776F0039CD01 /* Assets.xcassets */,
 				1D5DFA952C91776F0039CD01 /* Preview Content */,
 			);
@@ -125,6 +138,13 @@
 				1D5DFAAC2C9177700039CD01 /* DrinkUITestsLaunchTests.swift */,
 			);
 			path = DrinkUITests;
+			sourceTree = "<group>";
+		};
+		1D5DFAB92C9178160039CD01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D5DFA922C91776C0039CD01 /* ContentView.swift in Sources */,
+				1D5DFABB2C9178F10039CD01 /* StartView.swift in Sources */,
+				1D0687E72C91AC4C000F7431 /* StopView.swift in Sources */,
 				1D5DFA902C91776C0039CD01 /* DrinkApp.swift in Sources */,
+				1D5DFAC12C917C360039CD01 /* HomeView.swift in Sources */,
+				1D5DFABF2C917BAD0039CD01 /* CheatingView.swift in Sources */,
+				1D5DFABD2C91796B0039CD01 /* WhenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
